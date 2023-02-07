@@ -1,0 +1,18 @@
+$.ajax({ 
+     "url": "https://qa.cvcrm.com.br/api/cvio/lead", 
+     "type": "POST", 
+     "headers": {
+            "token": "2ee8fb7725d4e76e16069b6bbe8bc43eb28ed405",  
+          "Content-Type": "application/json" 
+         },  
+        "data": JSON.stringify({ 
+               "email": "cosmelitosena@tosotestando.com.br",   
+             "telefone": "(79) 0000-6969",  
+              "nome": 
+            "itachi uchiha", 
+               "permitir_alteracao": true, 
+               "origem": "SI" 
+             }),
+            }).done(function (response) { 
+                 console.log(response);
+                });

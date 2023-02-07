@@ -1,0 +1,44 @@
+@charset "UTF8";
+
+body{
+    background-color: rgb(27, 100, 143);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+
+
+}
+
+h1{
+
+
+    color: blue;
+    background-color: blueviolet;
+
+}
+
+p{
+    color: chartreuse;
+    text-align: justify;
+}
+.calcular{
+    padding: 10px 8px;
+    width: 50px;
+    color: aliceblue;
+    background-color: aquamarine;
+}
+#formulario enviar.btn_submit
+{
+  border-style:dashed;
+  position:absolute;
+  bottom: 0.5em;
+  right:10px;
+  background-color:#f1ff00;
+}
+ input.enviar_submit
+{
+  border-style:dashed;
+  position:absolute;
+  bottom: 0.5em;
+  right:10px;
+  background-color:#f1ff00;
+}
